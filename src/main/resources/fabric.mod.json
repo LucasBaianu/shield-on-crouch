@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "shield_on_crouch",
+	"version": "1.0.0",
+	"name": "Shield on Crouch",
+	"description": "Automatiza o escudo ao agachar.",
+	"authors": [
+		"Lubanu"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/shield_on_crouch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.lubanu.shieldoncrouch.ShieldOnCrouch"
+		],
+		"client": [
+			"me.lubanu.shieldoncrouch.ShieldOnCrouchClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
